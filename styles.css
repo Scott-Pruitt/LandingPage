@@ -1,11 +1,59 @@
-/* CSS file  */
+* {
+    font-family: Roboto, sans-serif;
+}
 #topcontainer {
    display: flex;
+   border: 2px red solid;
+   align-items: center;
+   justify-content: center;
+   background-color: #1f2937;
+   padding: none;
+   height: 60px;
+   margin: 0;
 }
-
-#topcontainer {
-    background-color: #333;
-    padding: 10px;
-    color: white;
+.logo{
+    border: 2px red solid;
+    margin-right: 20px;
+    font-size: 24px;
+    width: 500px;
+}
+.logo h1 {
+    padding: none;
+    color: #F9FAF8;
     text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    flex: auto;
+}
+.menu {
+    display: flex;
+    border: 2px red solid;
+    align-items: center;
+    justify-content: center;
+    flex:auto;
+}
+#linkone {
+    border: 2px red solid;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    flex: auto;
+}
+#linktwo {
+    border: 2px red solid;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    flex: auto;
+
+}
+#linkthree{
+    border: 2px red solid;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    flex: auto;
 }
