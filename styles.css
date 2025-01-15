@@ -1,24 +1,22 @@
 * {
     font-family: Roboto, sans-serif;
+    /*border: 2px red solid;*/
 }
 #topcontainer {
    display: flex;
-   border: 2px red solid;
    align-items: center;
    justify-content: center;
    background-color: #1f2937;
    padding: none;
-   height: 60px;
+   height: 100px;
    margin: 0;
 }
 .logo{
-    border: 2px red solid;
-    margin-right: 20px;
     font-size: 24px;
     width: 500px;
 }
 .logo h1 {
-    padding: none;
+    padding-left: 25px;
     color: #F9FAF8;
     text-align: center;
     vertical-align: middle;
@@ -27,13 +25,11 @@
 }
 .menu {
     display: flex;
-    border: 2px red solid;
     align-items: center;
     justify-content: center;
     flex:auto;
 }
 #linkone {
-    border: 2px red solid;
     color: #F9FAF8;
     font-size: 18px;
     text-align: center;
@@ -41,7 +37,6 @@
     flex: auto;
 }
 #linktwo {
-    border: 2px red solid;
     color: #F9FAF8;
     font-size: 18px;
     text-align: center;
@@ -50,10 +45,161 @@
 
 }
 #linkthree{
-    border: 2px red solid;
     color: #F9FAF8;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
     flex: auto;
+}
+#maintop{
+    display: flex;
+    background-color: #1f2937;
+    padding: none;
+    height: 300px;
+    margin: none;
+}
+#word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 500px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 0;
+}
+.herotext{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0;
+}
+.herobutton{
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+#picture{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: center;
+}
+.holder{
+    display: flex;
+    width: 550px;
+    background-color: gray;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#random{
+    color: #1f2937;
+    font-weight: 900;
+    width: 1325px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.infoboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info{
+    text-align: center;
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.box2{
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.box3{
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.box4{
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.text1{
+    font-size: 10px;
+    width: 95px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 30px;
+    margin-top: none;
+    border-radius: 10px;
+}
+.text2{
+    font-size: 10px;
+    width: 95px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 30px;
+    margin-top: none;
+    border-radius: 10px;
+}
+.text3{
+    font-size: 10px;
+    width: 95px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 30px;
+    margin-top: none;
+    border-radius: 10px;
+}
+.text4{
+    font-size: 10px;
+    width: 95px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 30px;
+    margin-top: none;
+    border-radius: 10px;
 }
